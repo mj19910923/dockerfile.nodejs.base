@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/python
+FROM registry.aliyuncs.com/hds/python.base:latest
 
 # Install Node.js
 RUN \
